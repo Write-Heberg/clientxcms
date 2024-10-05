@@ -1,0 +1,163 @@
+<?php
+return [
+    'title' => 'Personnalisation',
+    'icon' => 'Icone (Bootstrap)',
+    'addmenu' => 'Ajouter un menu',
+    'demo' => 'Démo',
+    'icon_help' => 'Voir la liste des icônes sur icons.getbootstrap.com',
+    'email_templates' => [
+        'title' => 'Modèles d\'email',
+        'description' => 'Personnalisez les modèles d\'email de l\'espace client',
+        'subheading' => 'Voici la liste de tous les modèles d\'email du système',
+        'locale' => 'Langue',
+        'shouldnotchanged' => 'Ce champs est laisser modifiable mais ne devrait pas être modifié hors cas exceptionnel',
+        'button_text' => 'Texte du bouton',
+        'subject' => 'Sujet du e-mail',
+        'show' => [
+            'title' => 'Fiche modèle d\'email :name',
+            'subheading' => 'Voici les informations liées à ce modèle d\'email créé le :date',
+        ],
+        'create' => [
+            'title' => 'Créer un modèle d\'email',
+            'subheading' => 'Créer un nouveau modèle d\'email pour le système',
+        ],
+        'names' => [
+            'invoice_paid' => 'Facture payée',
+            'notify_expiration' => 'Notification d\'expiration',
+            'wisp' => 'Livraison Wisp',
+            'pterodactyl' => 'Livraison Pterodactyl',
+            'virtualizor_vps' => 'Livraison VPS Virtualizor',
+            'virtualizor_cloud' => 'Livraison VPS Revendeur',
+            'pterobox' => 'Livraison Pterobox',
+            'service_suspended' => 'Service suspendu',
+            'invoice_created' => 'Facture créée',
+            'reset' => 'Réinitialisation du mot de passe',
+            'verify' => 'Vérification de l\'email',
+            'plesk_hosting' => 'Livraison Plesk Hébergement',
+            'plesk_reseller' => 'Livraison Plesk Revendeur',
+            'proxmox' => 'Livraison Proxmox',
+            'support_admin_ticket_created' => 'Ticket de support créé',
+            'support_admin_ticket_reply' => 'Réponse d\'un client à un ticket de support',
+            'support_customer_ticket_reply' => 'Réponse à un ticket de support',
+        ],
+    ],
+    'description' => 'Personnalisez les menus de l\'espaces client et les réseaux sociaux de l\'entreprise.',
+    'social' => [
+        'title' => 'Réseaux sociaux',
+        'description' => 'Personnalisez les réseaux sociaux de l\'entreprise',
+        'subheading' => 'Voici la liste de tous les réseaux sociaux du système',
+        'create' => [
+            'title' => 'Créer un réseau social',
+            'subheading' => 'Créer un nouveau réseau social pour l\'entreprise',
+        ],
+        'show' => [
+            'title' => 'Fiche réseau social :name',
+            'subheading' => 'Voici les informations liées à ce réseau social créé le :date',
+        ],
+    ],
+    'config' => [
+        'title' => 'Configuration',
+        'button' => 'Configurer mon thème',
+        'success' => 'La configuration a été enregistrée avec succès.',
+    ],
+    'seo' => [
+        'title' => 'Paramètres SEO',
+        'description' => 'Personnalisez les paramètres SEO de l\'espace client',
+        'fields' => [
+            'description' => 'Description de l\'espace client',
+            'keywords' => 'Mots clés de l\'espace client',
+            'keywords_help' => 'Séparés par des virgules',
+            'themecolor' => 'Couleur principale (embed)',
+            'headscripts' => 'Scripts dans le head',
+            'footscripts' => 'Scripts dans le footer',
+            'disablereferencement' => 'Désactiver le référencement',
+            'site_title' => 'Titre du site',
+            'site_title_help' => 'Le titre du site dans les onglets du navigateur après le nom de la page',
+        ],
+        'success' => 'Les paramètres SEO ont été enregistrés avec succès.',
+    ],
+    'primary' => [
+        'title' => 'Couleurs principales',
+        'description' => 'Personnalisez les couleurs principales de l\'espace client',
+        'fields' => [
+            'primary_color' => 'Couleur principale',
+            'secondary_color' => 'Couleur secondaire',
+        ],
+        'btnpreview' => 'Rendu en direct',
+        'preview_save' => 'Vous devez enregistrer pour voir le rendu en direct',
+    ],
+    'front_menu' => [
+        'title' => 'Menu de haut de page',
+        'description' => 'Personnalisez le menu de haut de page de l\'espace client',
+        'help' => 'Chaque URL doit être unique. Pour ajouter un lien externe, utilisez le format : https://www.example.com',
+    ],
+    'bottom_menu' => [
+        'title' => 'Menu de bas de page',
+        'description' => 'Personnalisez le menu de bas de page de l\'espace client',
+        'help' => 'Attention, chaque URL doit être unique',
+    ],
+    'sections' => [
+        'restoresuccess' => 'La section a été restaurée avec succès.',
+        'restore' => 'Restaurer',
+        'title' => 'Sections',
+        'errors' => [
+            'notfound' => 'La section n\'a pas été trouvée',
+            'advanced_personalization' => 'Veuillez activer le module de personnalisation avancée pour accéder à cette section',
+        ],
+        'subheading' => 'Voici la liste de toutes les sections du système',
+        'description' => 'Personnalisez les sections de l\'espace client',
+        'content' => 'Contenu',
+        'show' => [
+            'title' => 'Modification d\'une section',
+            'subheading' => 'Vous pouvez modifier le contenu de votre section comme vous le souhaitez',
+        ],
+        'fields' => [
+            'url' => 'Page de la section',
+            'active' => 'Actif',
+        ],
+        'disable' => 'Désactiver',
+        'enable' => 'Activer',
+        'types' => [
+            'subheading' => 'Voici la liste des sections ajoutables facilement dans la catégorie :name',
+        ],
+        'pages' => [
+            'page_home' => 'Page d\'accueil',
+            'page_store' => 'Boutique',
+            'title' => 'Page',
+            'subheading' => 'Voici la liste des sections pour cette pages',
+            'page_group' => 'Page de groupe :name',
+            'page_checkout' => 'Page de paiement',
+            'page_basket' => 'Page Panier',
+        ]
+    ],
+    'home' => [
+        'title' => 'Page d\'accueil',
+        'description' => 'Paramètres de la page d\'accueil de l\'espace client',
+        'success' => 'Les paramètres de la page d\'accueil ont été enregistrés avec succès.',
+        'fields' => [
+            'theme_home_title' => 'Titre de la page d\'accueil',
+            'theme_home_subtitle' => 'Sous-titre de la page d\'accueil',
+            'theme_home_image' => 'Image de la page d\'accueil',
+            'theme_home_enabled' => 'Activer la page d\'accueil',
+            'theme_home_title_meta' => 'Nom de la page d\'accueil',
+            'theme_home_title_meta_help' => 'Le nom de la page d\'accueil dans les onglets du navigateur',
+        ],
+    ],
+    'theme' => [
+        'title' => 'Paramètres du thème',
+        'description' => 'Paramètres du thème de l\'espace client',
+        'success' => 'Les paramètres du thème ont été enregistrés avec succès.',
+        'fields' => [
+            'theme_footer_description' => 'Description du pied de page',
+            'theme_footer_description_help' => 'Support de l\'HTML',
+            'theme_footer_topheberg' => 'Badge HTML TopHeberg',
+            'theme_header_logo' => 'Afficher le logo dans le header au lieu du nom de l\'entreprise',
+            'theme_switch_mode' => [
+                'title' => 'Mode autorisé',
+                'light' => 'Lumineux',
+                'dark' => 'Sombre',
+                'both' => 'Les deux',
+            ]
+        ]
+    ],
+];

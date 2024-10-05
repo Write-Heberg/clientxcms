@@ -1,0 +1,13 @@
+{
+    "name": "Advanced Personalisazation",
+    "description": "Advanced personalization",
+    "uuid": "advanced_personalization",
+    "version": "1.0",
+    "author": {
+        "name": "MartinDev",
+        "email": "contact@clientxcms.com"
+    },
+    "providers": [
+        "App\\Addons\\AdvancedPersonalization\\AdvancedPersonalizationServiceProvider"
+    ]
+}

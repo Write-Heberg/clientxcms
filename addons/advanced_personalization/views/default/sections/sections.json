@@ -1,0 +1,27 @@
+[
+    {
+        "thumbnail": "https://api-nextgen.clientxcms.com/assets/0d055039-ff97-4e33-b252-2fe8ce7320da",
+        "path": "advanced_personalization::sections.icons_stacked",
+        "uuid": "icons_stacked",
+        "default": true,
+        "default_url": "/",
+        "section_type": 2,
+        "extension_needed": "advanced_personalization"
+    },
+    {
+        "thumbnail": "https://api-nextgen.clientxcms.com/assets/89bc9662-6ae5-421d-95a3-24e45a0ec791",
+        "path": "advanced_personalization::sections.icon_border_gradient",
+        "uuid": "icon_border_gradient",
+        "default": false,
+        "section_type": 2,
+        "extension_needed": "advanced_personalization"
+    },
+    {
+        "thumbnail": "https://api-nextgen.clientxcms.com/assets/9721612b-b6dd-4402-83a3-04b15e345e52",
+        "path": "advanced_personalization::sections.register_cta",
+        "uuid": "register_cta",
+        "default": false,
+        "section_type": 3,
+        "extension_needed": "advanced_personalization"
+    }
+]
